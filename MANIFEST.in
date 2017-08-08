@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include nodux_account_voucher *.css
+recursive-include nodux_account_voucher *.csv
+recursive-include nodux_account_voucher *.html
+recursive-include nodux_account_voucher *.ico
+recursive-include nodux_account_voucher *.js
+recursive-include nodux_account_voucher *.json
+recursive-include nodux_account_voucher *.md
+recursive-include nodux_account_voucher *.png
+recursive-include nodux_account_voucher *.py
+recursive-include nodux_account_voucher *.svg
+recursive-include nodux_account_voucher *.txt
+recursive-exclude nodux_account_voucher *.pyc
